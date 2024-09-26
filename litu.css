@@ -1,0 +1,74 @@
+/*CSS Syntax/*    /*selectors: Element   Class   ID  /*
+
+/* CSS SELECTORS : Element Selector Example: /*
+
+selector {
+    property1 : value;
+    property2 : value;
+}
+
+h1 {
+    color : red;
+    property2 : value;
+}
+
+/* CSS SELECTOR : Class Selector Example: /*
+
+<h1 class="big-header">
+    title
+     </h1>
+
+<a href="index.html">
+    home
+     </a>
+
+<div class="red square">
+    content
+     </div>
+    
+.class-name {
+    property: value;
+}
+
+/* LETS CREAT SOME BUTTONS  /*
+
+.btn {
+    padding: 10px;
+    color: white;
+}
+    
+.btn-1 { background-color: green; }
+.btn-2 { background-color: blue; }
+.btn-3 { background-color: purple; }
+
+<button class="btn btn-1">
+    button 1
+</button>
+
+<button class="btn btn-2">
+    button 2
+</button>
+
+<button class="btn btn-3">
+    button 3
+</button>
+
+/* CSS SELECTORS : ID Selector Example: /*
+
+<h1 id="main-header">
+    Title
+</h1>
+
+#id {
+    property: value;
+}
+
+/* CSS SELECTORS combinations Example: /*
+.selector-1.selector-2 {
+    property: value;
+}
+
+#big-blue.larg.blue {
+    color: blue;
+    font-size: 200%;
+}
